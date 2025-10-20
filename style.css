@@ -1,0 +1,165 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  background-color: #fff;
+  color: #111;
+  line-height: 1.6;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5em 2em;
+}
+
+.brand {
+  font-weight: 600;
+  font-size: 1.1em;
+}
+
+.nav-icons {
+  display: flex;
+  align-items: center;
+  gap: 1em;
+}
+
+.nav-icons img {
+  width: 20px;
+  height: 20px;
+  opacity: 0.7;
+  transition: opacity 0.2s;
+}
+
+.nav-icons img:hover {
+  opacity: 1;
+}
+
+.cta-btn {
+  background: #000;
+  color: #fff;
+  padding: 0.6em 1.2em;
+  border-radius: 6px;
+  text-decoration: none;
+  font-size: 0.9em;
+  font-weight: 500;
+}
+
+.cta-btn:hover {
+  opacity: 0.8;
+}
+
+/* Hero Section */
+.hero {
+  text-align: left;
+  max-width: 900px;
+  margin: 3em auto;
+  padding: 0 1.5em;
+}
+
+.hero h1 {
+  font-size: 2.5em;
+  font-weight: 700;
+  margin-bottom: 0.4em;
+}
+
+.hero p {
+  font-size: 1.1em;
+  margin-bottom: 1.2em;
+  color: #444;
+}
+
+.primary-btn {
+  display: inline-block;
+  background-color: #000;
+  color: #fff;
+  padding: 0.8em 1.6em;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.primary-btn:hover {
+  opacity: 0.85;
+}
+
+.hero-img {
+  display: block;
+  width: 100%;
+  border-radius: 8px;
+  margin-top: 2em;
+}
+
+/* Features Section */
+.features {
+  max-width: 1000px;
+  margin: 4em auto;
+  padding: 0 1.5em;
+}
+
+.features h2 {
+  font-size: 1.8em;
+  font-weight: 600;
+  margin-bottom: 1.5em;
+}
+
+.feature-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2em;
+}
+
+.card {
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.08);
+  overflow: hidden;
+}
+
+.card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.card h3 {
+  font-size: 1.1em;
+  margin: 0.8em 1em 0.4em;
+}
+
+.card p {
+  margin: 0 1em 1em;
+  color: #444;
+}
+
+/* Footer */
+footer {
+  border-top: 1px solid #eee;
+  padding: 1.5em 2em;
+  text-align: center;
+}
+
+.footer-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.8em;
+}
+
+.footer-icons img {
+  width: 20px;
+  height: 20px;
+  margin: 0 6px;
+  opacity: 0.7;
+  transition: opacity 0.2s;
+}
+
+.footer-icons img:hover {
+  opacity: 1;
+}
